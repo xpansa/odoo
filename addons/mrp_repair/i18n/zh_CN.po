@@ -47,7 +47,7 @@ msgstr "<i>(添加)</i>"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "<strong>Fees Line(s)</strong>"
-msgstr "<strong>费用行</strong>"
+msgstr "<strong>费用明细行</strong>"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
@@ -147,7 +147,7 @@ msgstr "已取消"
 #: code:addons/mrp_repair/models/mrp_repair.py:221
 #, python-format
 msgid "Cannot cancel completed repairs."
-msgstr ""
+msgstr "不能取消完成的修理."
 
 #. module: mrp_repair
 #: model:ir.model.fields,help:mrp_repair.field_mrp_repair_partner_id
@@ -297,7 +297,7 @@ msgstr "分组"
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_make_invoice_group
 msgid "Group by partner invoice address"
-msgstr "业务伙伴发票地址组"
+msgstr "分组，按业务伙伴发票地址"
 
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.view_repair_order_form_filter
@@ -632,7 +632,7 @@ msgstr "修理报价单＃"
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_name
 msgid "Repair Reference"
-msgstr "修理参考"
+msgstr "修理参照"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:194
@@ -742,7 +742,7 @@ msgstr "小计"
 #. module: mrp_repair
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Tax"
-msgstr "税金"
+msgstr "税"
 
 #. module: mrp_repair
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_amount_tax
@@ -750,7 +750,7 @@ msgstr "税金"
 #: model:ir.model.fields,field_description:mrp_repair.field_mrp_repair_line_tax_id
 #: model:ir.ui.view,arch_db:mrp_repair.report_mrprepairorder
 msgid "Taxes"
-msgstr "税金"
+msgstr "税"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/models/mrp_repair.py:166

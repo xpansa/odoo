@@ -12,7 +12,7 @@
 # JackTheHunter <Maximilian.N98@gmail.com>, 2016
 # Rudolf Schnapka <rs@techno-flex.de>, 2016
 # Tina Rittmüller <tr@ife.de>, 2016
-# Thomas A. Jaeger <tj@jamotion.ch>, 2016
+# Renzo Meister <info@jamotion.ch>, 2016
 # Henry Mineehen <info@mineehen.de>, 2016
 # Ermin Trevisan <trevi@twanda.com>, 2016
 # Ralf Hilgenstock <rh@dialoge.info>, 2016
@@ -277,7 +277,7 @@ msgstr "Arbeitsstelle"
 #. module: hr_recruitment
 #: model:ir.ui.view,arch_db:hr_recruitment.view_hr_recruitment_configuration
 msgid "Apply"
-msgstr "Anwenden"
+msgstr "Übernehmen"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_priority
@@ -1638,7 +1638,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,field_description:hr_recruitment.field_hr_applicant_email_cc
 msgid "Watchers Emails"
-msgstr "E-Mails des Beobachters"
+msgstr "E-Mails des Abonnenten"
 
 #. module: hr_recruitment
 #: model:mail.template,subject:hr_recruitment.email_template_data_applicant_employee
