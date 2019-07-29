@@ -871,7 +871,10 @@ class BaseModel(object):
             :return: list of lists of corresponding values
         """
         lines = []
-        for record in self:
+        for num, record in enumerate(self, 1):
+            self.env.invalidate_all()  # to prevent high memory usage on big exports
+            _logger.debug('[%s/%s] exporting %s', num, len(self), record)
+
             # main line of record, initially empty
             current = [''] * len(fields)
             lines.append(current)
