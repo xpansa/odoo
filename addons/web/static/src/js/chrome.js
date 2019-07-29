@@ -800,6 +800,7 @@ instance.web.Menu =  instance.web.Widget.extend({
         this.is_bound.resolve();
     },
     do_load_needaction: function (menu_ids) {
+        return $.when();
         var self = this;
         menu_ids = _.compact(menu_ids);
         if (_.isEmpty(menu_ids)) {
