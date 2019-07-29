@@ -872,7 +872,9 @@ class BaseModel(object):
         """
         lines = []
         for num, record in enumerate(self, 1):
-            self.env.invalidate_all()  # to prevent high memory usage on big exports
+            if num % 1000 == 0:
+                self.env.invalidate_all()  # to prevent high memory usage on big exports
+
             _logger.debug('[%s/%s] exporting %s', num, len(self), record)
 
             # main line of record, initially empty
